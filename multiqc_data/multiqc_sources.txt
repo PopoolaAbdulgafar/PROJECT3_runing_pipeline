@@ -1,0 +1,6 @@
+Module	Section	Sample Name	Source
+Samtools	flagstat	SRR2584863_flagstart	/home/abdulgafar/PROJECT3_runing_pipeline/SRR2584863_flagstart.txt
+FastQC	all_sections	SRR2584863_1	/home/abdulgafar/PROJECT3_runing_pipeline/SRR2584863_1_fastqc.zip
+FastQC	all_sections	SRR2584863_1_paired	/home/abdulgafar/PROJECT3_runing_pipeline/SRR2584863_1_paired_fastqc.zip
+FastQC	all_sections	SRR2584863_2	/home/abdulgafar/PROJECT3_runing_pipeline/SRR2584863_2_fastqc.zip
+FastQC	all_sections	SRR2584863_2_paired	/home/abdulgafar/PROJECT3_runing_pipeline/SRR2584863_2_paired_fastqc.zip

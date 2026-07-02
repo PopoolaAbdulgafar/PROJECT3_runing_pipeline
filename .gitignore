@@ -1,0 +1,9 @@
+*.fastq
+*.sam
+*.bam
+*.bai
+*.sra
+SRR2584863/
+*.tmp.*
+.ipynb_checkpoints/
+
