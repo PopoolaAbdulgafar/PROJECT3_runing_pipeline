@@ -49,6 +49,33 @@ Alignment statistics were generated using `samtools flagstat`.
 ### 8. MultiQC Report
 MultiQC combined all FastQC and SAMtools reports into a single summary report.
 
+### 9. Alignment Visualization (IGV)
+
+The sorted BAM file and its corresponding BAM index (.bai) were visualized using the Integrative Genomics Viewer (IGV).
+
+#### Visualization Workflow
+
+- Loaded the reference genome (`reference.fa`) into IGV.
+- Loaded the sorted alignment file (`SRR2584863_sorted.bam`).
+- IGV automatically used the corresponding BAM index (`SRR2584863_sorted.bam.bai`).
+- Zoomed into the aligned region to inspect individual sequencing reads.
+- Examined read coverage across the reference genome.
+- Compared aligned reads with the reference sequence to identify matching bases and mismatches.
+- Observed read alignment patterns and sequence consistency across the selected genomic region.
+
+#### Interpretation
+
+The visualization confirmed that the sequencing reads aligned successfully to the reference genome. Most reads matched the reference sequence, indicating successful alignment. A few mismatched bases were observed, which may represent natural sequence variation, sequencing errors, or alignment differences. The coverage track showed multiple overlapping reads, providing confidence in the alignment quality.
+
+#### IGV images
+ directory contains images demonstrating:
+
+- Loading the reference genome.
+- BAM alignment visualization.
+- Coverage track.
+- Individual aligned sequencing reads.
+- Mismatched bases observed in IGV.
+
 ## Output Files
 
 - FastQC reports (.html)
@@ -60,6 +87,8 @@ MultiQC combined all FastQC and SAMtools reports into a single summary report.
 - SAMtools flagstat report
 - MultiQC report
 - Pipeline automation script (`runpipeline.sh`)
+- IGV visualisation image
+- Bam alignment visualisation
 
 ## Repository Contents
 
