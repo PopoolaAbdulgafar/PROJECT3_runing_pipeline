@@ -21,6 +21,7 @@ This project demonstrates a complete next-generation sequencing (NGS) analysis w
 - BWA
 - SAMtools
 - MultiQC
+- IGV
 - Git & GitHub
 
 ## Workflow
